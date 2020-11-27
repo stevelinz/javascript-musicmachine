@@ -59,6 +59,25 @@ $(document).ready(function () {
         playRecording(recordedNotes);
     });
 
+
+  // linz song button 1
+
+    var songOne = ["C,5","E,5","D,5","F,5"]
+
+    $("#songOneButton").click(function () {
+        playRecording(songOne);
+    });
+
+    var song
+
+    // linz song button 2
+    var songOne = ["C,5","E,5","D,5","F,5","E,5","D,5","C,5","C,5"]
+
+    $("#songTwoButton").click(function () {
+        playRecording(songOne);
+    });
+
+
     // Assign functions to the other buttons
     $("#recordButton").click(toggleRecording);
     $("#clearButton").click(clearRecording);
